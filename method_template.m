@@ -20,12 +20,14 @@ function class_nameObj = method_name(class_nameObj,arg1)
 % NECESSARY FILES AND/OR PACKAGES: TODO: Add necessary files
 %   +package_name, someFile.m
 %
-% AUTHOR:
-%   DD-MMM-YYYY by FULL_NAME
+% SEE ALSO: TODO: Add see alsos
+%    relatedFunction1 | relatedFunction2
 %
+% AUTHOR:
+%    FULL_NAME DD-MMM-YYYY
 %-------------------------------------------------------------------------------
 
-% %% Check Input Arguments
+%% Check Input Arguments
 % 
 % % Check number of arguments TODO: Add number argument check
 % error(nargchk(1,2,nargin))

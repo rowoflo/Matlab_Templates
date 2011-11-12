@@ -28,15 +28,17 @@ function output = function_name(input1,input2,varargin)
 % NECESSARY FILES: TODO: Add necessary files
 %   +package_name, someFile.m
 %
-% AUTHOR:
-%   DD-MMM-YYYY by FULL_NAME
-%
 % SEE ALSO: TODO: Add see alsos
 %    relatedFunction1 | relatedFunction2
 %
+% AUTHOR:
+%    FULL_NAME
+%
+% VERSION: 
+%   Created DD-MMM-YYYY
 %-------------------------------------------------------------------------------
 
-% %% Check Inputs
+%% Check Inputs
 % 
 % % Check number of inputs TODO: Add number argument check
 % error(nargchk(1,inf,nargin))
@@ -52,7 +54,8 @@ function output = function_name(input1,input2,varargin)
 % % Get and check properties
 % propargin = size(varargin,2);
 % 
-% assert(mod(propargin,2) == 0,'function_name:properties',...
+% assert(mod(propargin,2) == 0,...
+%     'package_name:function_name:properties',...
 %     'Properties must come in pairs of a "PropertyName" and a "PropertyValue".')
 % 
 % propStrs = varargin(1:2:propargin);

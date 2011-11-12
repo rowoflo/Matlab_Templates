@@ -28,11 +28,14 @@ function output = gui_name(input1,input2,varargin)
 % NECESSARY FILES:
 %   +package_name, someFile.m
 %
-% AUTHOR:
-%   DD-MMM-YYYY by FULL_NAME
-%
-% SEE ALSO:
+% SEE ALSO: TODO: Add see alsos
 %    relatedFunction1 | relatedFunction2
+%
+% AUTHOR:
+%    FULL_NAME
+%
+% VERSION: 
+%   1.0 DD-MMM-YYYY
 %
 %-------------------------------------------------------------------------------
 

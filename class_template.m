@@ -8,12 +8,14 @@ classdef class_name < superClass
 % NECESSARY FILES AND/OR PACKAGES: TODO: Add necessary files
 %   +package_name, someFile.m
 %
-% AUTHOR:
-%   DD-MMM-YYYY by FULL_NAME
-%
 % SEE ALSO: TODO: Add see alsos
 %    relatedFunction1 | relatedFunction2
 %
+% AUTHOR:
+%    FULL_NAME
+%
+% VERSION: 
+%   Created DD-MMM-YYYY
 %-------------------------------------------------------------------------------
 
 %% Properties ------------------------------------------------------------------
@@ -74,6 +76,9 @@ classdef class_name < superClass
 %         % SYNTAX:
 %         %   class_nameObj.prop1 = prop1
 %         %
+%         % INPUT:
+%         %   prop1 - (1 x 1 real number)
+%         %
 %         % NOTES:
 %         %
 %         %-----------------------------------------------------------------------
@@ -89,6 +94,9 @@ classdef class_name < superClass
 %         %
 %         % SYNTAX:
 %         %	  prop1 = class_nameObj.prop1
+%         %
+%         % OUTPUT:
+%         %   prop1 - (1 x 1 real number)
 %         %
 %         % NOTES:
 %         %
