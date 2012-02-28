@@ -1,4 +1,4 @@
-classdef class_name < superClass
+classdef class_name < superClass % Note: to use events must inherit from Handle class
 % The "package_name.class_name" class ... TODO: Add description
 %
 % NOTES:
@@ -24,7 +24,16 @@ classdef class_name < superClass
 % end
 % 
 % properties (Access = private)
-%     
+%    prop2 % (size type) TODO: Add description
+% end
+% 
+% properties (SetObservable = true, AbortSet = true)
+%     prop3  % (size type) TODO: Add description
+% end
+
+%% Events ----------------------------------------------------------------------
+% events (ListenAccess = public, NotifyAccess = public)
+%     event1 % TODO: Add description
 % end
 
 %% Constructor -----------------------------------------------------------------
@@ -64,11 +73,14 @@ classdef class_name < superClass
 %         % Assign properties
 %         class_nameObj.prop1 = arg1;
 %         
+%         % Add listeners
+%         listenerHandle1 = addlistener(sourcEventObj,'eventName',@class_name.eventNameEvent); % Standard event
+%         listenerHandle2 = addlistener(class_nameObj,'prop3','PostSet',@class_nameObj.prop3SetEvent); % Property event
 %     end
 % end
 %-------------------------------------------------------------------------------
 
-%% Property methods ------------------------------------------------------------
+%% Property Methods ------------------------------------------------------------
 % methods
 %     function class_nameObj = set.prop1(class_nameObj,prop1)
 %         % Overloaded assignment operator function for the "prop1" property.
@@ -103,6 +115,19 @@ classdef class_name < superClass
 %         %-----------------------------------------------------------------------
 % 
 %         prop1 = class_nameObj.prop1;
+%     end
+% end
+%-------------------------------------------------------------------------------
+
+%% Listener Methods ------------------------------------------------------------
+% methods (AttributeName = value)
+%     function eventNameEvent(class_nameObj,sourceObj,eventData)
+%         % Listener response to the "eventName" event.
+%         %
+%         % NOTES:
+%         %
+%         %-----------------------------------------------------------------------
+%         
 %     end
 % end
 %-------------------------------------------------------------------------------
@@ -146,7 +171,7 @@ classdef class_name < superClass
 % end
 %-------------------------------------------------------------------------------
 
-%% Converting methods ----------------------------------------------------------
+%% Converting Methods ----------------------------------------------------------
 % methods
 %     function anOtherObject = otherObject
 %         % Function to convert class_name object to a otherObject object.
@@ -164,7 +189,7 @@ classdef class_name < superClass
 % end
 %-------------------------------------------------------------------------------
 
-%% Abstract methods ------------------------------------------------------------
+%% Abstract Methods ------------------------------------------------------------
 % methods (Abstract = true)
 %     %  The "method_name" method . . .  TODO: Add description
 %     %
