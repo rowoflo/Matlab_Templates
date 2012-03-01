@@ -1,4 +1,4 @@
-classdef class_name < superClass % Note: to use events must inherit from Handle class
+classdef class_name < superClass % Note: to use events and destructor class must inherit from the "handle" class
 % The "package_name.class_name" class ... TODO: Add description
 %
 % NOTES:
