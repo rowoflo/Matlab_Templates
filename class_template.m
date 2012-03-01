@@ -80,6 +80,26 @@ classdef class_name < superClass % Note: to use events must inherit from Handle 
 % end
 %-------------------------------------------------------------------------------
 
+%% Destructor ------------------------------------------------------------------
+% methods (Access = public)
+%     function delete(class_nameObj)
+%         % Destructor function for the "class_nameObj" class.
+%         %
+%         % SYNTAX:
+%         %   delete(class_nameObj)
+%         %
+%         % INPUTS:
+%         %   class_nameObj - (1 x 1 package_name.class_name)
+%         %       An instance of the "package_name.class_name" class.
+%         %
+%         % NOTES:
+%         %
+%         %-----------------------------------------------------------------------
+%         
+%     end
+% end
+%-------------------------------------------------------------------------------
+
 %% Property Methods ------------------------------------------------------------
 % methods
 %     function class_nameObj = set.prop1(class_nameObj,prop1)
