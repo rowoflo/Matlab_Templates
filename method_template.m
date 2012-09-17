@@ -30,7 +30,7 @@ function class_nameObj = method_name(class_nameObj,arg1)
 %% Check Input Arguments
 % 
 % % Check number of arguments TODO: Add number argument check
-% error(nargchk(1,2,nargin))
+% narginchk(1,inf)
 % 
 % % Apply default values TODO: Add apply defaults
 % if nargin < 2, arg1 = 0; end

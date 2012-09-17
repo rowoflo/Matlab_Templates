@@ -41,7 +41,7 @@ function output = function_name(input1,input2,varargin)
 %% Check Inputs
 % 
 % % Check number of inputs TODO: Add number argument check
-% error(nargchk(1,inf,nargin))
+% narginchk(1,inf)
 % 
 % % Apply default values TODO: Add apply defaults
 % if nargin < 2, input2 = defaultInputValue; end
