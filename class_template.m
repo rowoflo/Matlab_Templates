@@ -12,7 +12,7 @@ classdef class_name < superClass % Note: to use events and destructor class must
 %    relatedFunction1 | relatedFunction2
 %
 % AUTHOR:
-%    FULL_NAME
+%    FULL_NAME (WEBSITE)
 %
 % VERSION: 
 %   Created DD-MMM-YYYY
@@ -57,7 +57,7 @@ classdef class_name < superClass % Note: to use events and destructor class must
 %         %-----------------------------------------------------------------------
 %         
 %         % Check number of arguments TODO: Add number argument check
-%         error(nargchk(0,1,nargin))
+%         narginchk(0,1)
 % 
 %         % Apply default values TODO: Add apply defaults
 %         if nargin < 1, arg1 = 0; end
@@ -67,13 +67,13 @@ classdef class_name < superClass % Note: to use events and destructor class must
 %             'package_name:class_name:arg1',...
 %             'Input argument "arg1" must be a 1 x 1 real number.')
 %         
-%         % Initialize Superclass
+%         % Initialize superclass TODO: Initialize superclass
 %         class_nameObj = class_nameObj@superClass(varargin{:});
 %         
-%         % Assign properties
+%         % Assign properties TODO: Assign properties
 %         class_nameObj.prop1 = arg1;
 %         
-%         % Add listeners
+%         % Add listeners TODO: Add listeners
 %         listenerHandle1 = addlistener(sourcEventObj,'eventName',@class_name.eventNameEvent); % Standard event
 %         listenerHandle2 = addlistener(class_nameObj,'prop3','PostSet',@class_nameObj.prop3SetEvent); % Property event
 %     end
@@ -176,7 +176,7 @@ classdef class_name < superClass % Note: to use events and destructor class must
 %         %-----------------------------------------------------------------------
 % 
 %         % Check number of arguments
-%         error(nargchk(1,2,nargin))
+%         narginchk(1,2,nargin)
 %         
 %         % Apply default values
 %         if nargin < 2, arg1 = 0; end

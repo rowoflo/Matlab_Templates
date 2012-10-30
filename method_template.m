@@ -24,7 +24,7 @@ function class_nameObj = method_name(class_nameObj,arg1)
 %    relatedFunction1 | relatedFunction2
 %
 % AUTHOR:
-%    FULL_NAME DD-MMM-YYYY
+%    FULL_NAME (WEBSITE) DD-MMM-YYYY
 %-------------------------------------------------------------------------------
 
 %% Check Input Arguments

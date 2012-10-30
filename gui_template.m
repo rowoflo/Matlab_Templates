@@ -32,7 +32,7 @@ function output = gui_name(input1,input2,varargin)
 %    relatedFunction1 | relatedFunction2
 %
 % AUTHOR:
-%    FULL_NAME
+%    FULL_NAME (WEBSITE)
 %
 % VERSION: 
 %   1.0 DD-MMM-YYYY
