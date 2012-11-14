@@ -21,12 +21,12 @@ function output = gui_name(input1,input2,varargin)
 %   output - (size type) 
 %       Description.
 %
-% EXAMPLES:
+% EXAMPLES: TODO: Add examples
 %
 % NOTES:
 %
-% NECESSARY FILES:
-%   +package_name, someFile.m
+% NECESSARY FILES AND/OR PACKAGES: TODO: Add necessary files
+%   +somePackage, someFile.m
 %
 % SEE ALSO: TODO: Add see alsos
 %    relatedFunction1 | relatedFunction2

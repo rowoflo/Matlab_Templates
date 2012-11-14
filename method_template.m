@@ -18,7 +18,7 @@ function class_nameObj = method_name(class_nameObj,arg1)
 % NOTES:
 %
 % NECESSARY FILES AND/OR PACKAGES: TODO: Add necessary files
-%   +package_name, someFile.m
+%   +somePackage, someFile.m
 %
 % SEE ALSO: TODO: Add see alsos
 %    relatedFunction1 | relatedFunction2

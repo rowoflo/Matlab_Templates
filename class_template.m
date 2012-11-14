@@ -6,7 +6,7 @@ classdef class_name < superClass % Note: to use events and destructor class must
 %   command window.
 %
 % NECESSARY FILES AND/OR PACKAGES: TODO: Add necessary files
-%   +package_name, someFile.m
+%   +somePackage, someFile.m
 %
 % SEE ALSO: TODO: Add see alsos
 %    relatedFunction1 | relatedFunction2
@@ -114,7 +114,7 @@ classdef class_name < superClass % Note: to use events and destructor class must
 %         % NOTES:
 %         %
 %         %-----------------------------------------------------------------------
-%         assert(isnumeric(arg1) && isreal(arg1) && isequal(size(arg1),[1,1]),...
+%         assert(isnumeric(prop1) && isreal(prop1) && isequal(size(prop1),[1,1]),...
 %             'package_name:class_name:set:prop1',...
 %             'Property "prop1" must be set to a 1 x 1 real number.')
 % 

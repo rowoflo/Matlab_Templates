@@ -4,6 +4,7 @@
 % NOTES:
 %
 % NECESSARY FILES AND/OR PACKAGES: TODO: Add necessary files
+%   +somePackage, someFile.m
 %
 % SEE ALSO: TODO: Add see alsos
 %    relatedFunction1 | relatedFunction2

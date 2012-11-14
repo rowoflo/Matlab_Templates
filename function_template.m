@@ -26,7 +26,7 @@ function output = function_name(input1,input2,varargin)
 % NOTES:
 %
 % NECESSARY FILES: TODO: Add necessary files
-%   +package_name, someFile.m
+%   +somePackage, someFile.m
 %
 % SEE ALSO: TODO: Add see alsos
 %    relatedFunction1 | relatedFunction2
