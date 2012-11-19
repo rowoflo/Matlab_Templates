@@ -140,7 +140,7 @@ classdef class_name < superClass % Note: to use events and destructor class must
 %-------------------------------------------------------------------------------
 
 %% Listener Methods ------------------------------------------------------------
-% methods (AttributeName = value)
+% methods (Access = public)
 %     function eventNameEvent(class_nameObj,sourceObj,eventData)
 %         % Listener response to the "eventName" event.
 %         %
@@ -153,7 +153,7 @@ classdef class_name < superClass % Note: to use events and destructor class must
 %-------------------------------------------------------------------------------
 
 %% General Methods -------------------------------------------------------------
-% methods (AttributeName = value)
+% methods (Access = public)
 %     function class_nameObj = method_name(class_nameObj,arg1)
 %         % The "method_name" method ...
 %         %
@@ -176,7 +176,7 @@ classdef class_name < superClass % Note: to use events and destructor class must
 %         %-----------------------------------------------------------------------
 % 
 %         % Check number of arguments
-%         narginchk(1,2,nargin)
+%         narginchk(1,2)
 %         
 %         % Apply default values
 %         if nargin < 2, arg1 = 0; end
@@ -235,7 +235,7 @@ classdef class_name < superClass % Note: to use events and destructor class must
 %-------------------------------------------------------------------------------
 
 %% Methods in separte files ----------------------------------------------------
-% methods (AttributeName = value)
+% methods (Access = public)
 %     class_nameObj = someMethod(class_nameObj,arg1)
 % end
 %-------------------------------------------------------------------------------
