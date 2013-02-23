@@ -44,6 +44,10 @@ function class_nameObj = method_name(class_nameObj,arg1)
 %     'package_name:class_name:method_name:arg1',...
 %     'Input argument "arg1" must be a ? x ? matrix of real numbers.')
 
+%% Parameters
+
+%% Variables
+
 %% 
 
 end
