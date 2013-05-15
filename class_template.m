@@ -42,14 +42,14 @@ classdef class_name < superClass % Note: to use events and destructor class must
 %         % Constructor function for the "class_name" class.
 %         %
 %         % SYNTAX: TODO: Add syntax
-%         %   class_nameObj = class_name(arg1,[superClass arguments])
+%         %   class_nameObj = package_name.class_name(arg1,[superClass arguments])
 %         %
 %         % INPUTS: TODO: Add inputs
 %         %   arg1 - (size type) [defaultArg1Value] 
 %         %       Sets the "class_nameObj.prop1" property.
 %         %
 %         % OUTPUTS:
-%         %   class_nameObj - (1 x 1 class_name object) 
+%         %   class_nameObj - (1 x 1 package_name.class_name object) 
 %         %       A new instance of the "package_name.class_name" class.
 %         %
 %         % NOTES:
