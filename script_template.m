@@ -1,19 +1,19 @@
-%% script_name.m
-% The "script_name" script ...  TODO: Add description
+%% script_name
+% The |script_name.m| script ...  TODO: Add description
 %
 % NOTES:
 %
 % NECESSARY FILES AND/OR PACKAGES: TODO: Add necessary files
+%
 %   +somePackage, someFile.m
 %
-% SEE ALSO: TODO: Add see alsos
-%    relatedFunction1 | relatedFunction2
+% AUTHORS:
+%    <http://rowlandoflaherty.com Rowland O'Flaherty>
 %
-% AUTHOR:
-%    FULL_NAME (WEBSITE)
+% CREATED: 
+%    DD-MMM-YYYY (Rowland O'Flaherty)
 %
-% VERSION: 
-%    Created DD-MMM-YYYY
-%-------------------------------------------------------------------------------
+% MODIFIED:
+%    DD-MMM-YYYY (Rowland O'Flaherty)
 
 %%
