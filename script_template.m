@@ -7,13 +7,10 @@
 %
 %   +somePackage, someFile.m
 %
-% AUTHORS:
-%    <http://rowlandoflaherty.com Rowland O'Flaherty>
+% AUTHOR:
+%    FULL_NAME (WEBSITE)
 %
-% CREATED: 
-%    DD-MMM-YYYY (Rowland O'Flaherty)
-%
-% MODIFIED:
-%    DD-MMM-YYYY (Rowland O'Flaherty)
+% VERSION: 
+%   Created DD-MMM-YYYY
 
 %%
